@@ -20,7 +20,7 @@ const uberSchema = new mongoose.Schema({
 
 const Uber = mongoose.model("Uber", uberSchema)
 
-
+//data route https://capstone-uber.herokuapp.com/api/uber
 
 
 //Our routes
