@@ -6,7 +6,6 @@ const Schema = mongoose.Schema;
 const expenseSchema = new Schema({
     expense: String,
     value: Number,
-    frequency: String,
 })
 
 const newExpense = mongoose.model('uber', expenseSchema);

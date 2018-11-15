@@ -15,7 +15,9 @@ app.use(express.urlencoded({ extended: true }))
 mongoose.connect(process.env.MONGODB, { useNewUrlParser: true })
 
 const uberSchema = new mongoose.Schema({
-    earnings: Number
+    username: String,
+    password: String,
+    expenses: Number,
 })
 
 const Uber = mongoose.model("Uber", uberSchema)
